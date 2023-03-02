@@ -1,0 +1,195 @@
+{
+  "config": {
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/home/bekhruz/projects/lebazar/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "name": "iphone12",
+        "testDir": "/home/bekhruz/projects/lebazar/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/?(*.)@(spec|test).*"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "reporter": [
+      [
+        "json",
+        null
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "configFile": "/home/bekhruz/projects/lebazar/playwright.config.js",
+    "rootDir": "/home/bekhruz/projects/lebazar/tests",
+    "quiet": false,
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.31.1",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "example.spec.js",
+      "file": "example.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Lebazar smoke functions test",
+          "file": "example.spec.js",
+          "line": 8,
+          "column": 6,
+          "specs": [
+            {
+              "title": "First test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "iphone12",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 10317,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-02-28T09:40:07.237Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/bekhruz/projects/lebazar/test-results/example-Lebazar-smoke-functions-test-First-test-iphone12/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "dd9b2edffe9b7501040c-b6586631851bb13b6c5d",
+              "file": "example.spec.js",
+              "line": 9,
+              "column": 3
+            },
+            {
+              "title": "Second test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "iphone12",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 11465,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-02-28T09:40:07.237Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/bekhruz/projects/lebazar/test-results/example-Lebazar-smoke-functions-test-Second-test-iphone12/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "dd9b2edffe9b7501040c-0ce5fd1c7a4e7a7e3676",
+              "file": "example.spec.js",
+              "line": 14,
+              "column": 3
+            },
+            {
+              "title": "Third test",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "iphone12",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "timedOut",
+                      "duration": 30000,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "/home/bekhruz/projects/lebazar/tests/example.spec.js",
+                            "column": 42,
+                            "line": 20
+                          },
+                          "message": "locator.click: Target closed\n=========================== logs ===========================\nwaiting for getByRole('link').first()\n============================================================\n\n\u001b[90m   at \u001b[39mexample.spec.js:20\n\n\u001b[0m \u001b[90m 18 |\u001b[39m   })\u001b[0m\n\u001b[0m \u001b[90m 19 |\u001b[39m   test(\u001b[32m'Third test'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 20 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'link'\u001b[39m)\u001b[33m.\u001b[39mfirst()\u001b[33m.\u001b[39mclick()\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                                          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 21 |\u001b[39m   })\u001b[0m\n\u001b[0m \u001b[90m 22 |\u001b[39m })\u001b[0m\n\n\u001b[2m    at /home/bekhruz/projects/lebazar/tests/example.spec.js:20:42\u001b[22m"
+                        },
+                        {
+                          "message": "Pending operations:\n  - locator.click at tests/example.spec.js:20:42\n"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-02-28T09:40:07.254Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/bekhruz/projects/lebazar/test-results/example-Lebazar-smoke-functions-test-Third-test-iphone12/test-failed-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "dd9b2edffe9b7501040c-4f5ccd0a0ce40794bf7c",
+              "file": "example.spec.js",
+              "line": 19,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

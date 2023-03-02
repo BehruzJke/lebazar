@@ -1,0 +1,387 @@
+{
+  "cookies": [
+    {
+      "name": "_GRECAPTCHA",
+      "value": "09AJBLKW0fJ1Qp9mQfCYw9ZNm22Fw7c4HZo1aNinEilfQZ49PtoBnhON3OoNTpcGM03n5vmNuxeY68ZR7WgjhOeg0",
+      "domain": "www.google.com",
+      "path": "/recaptcha",
+      "expires": 1693306085.945967,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "lang",
+      "value": "en",
+      "domain": "lebazar.uz",
+      "path": "/",
+      "expires": 1712314045.031563,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "storeId",
+      "value": "7",
+      "domain": "lebazar.uz",
+      "path": "/",
+      "expires": 1712314045.031902,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "storeName",
+      "value": "korzinka-uz",
+      "domain": "lebazar.uz",
+      "path": "/",
+      "expires": 1712314045.031928,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "branchId",
+      "value": "78",
+      "domain": "lebazar.uz",
+      "path": "/",
+      "expires": 1712314045.031948,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "branchName",
+      "value": "shedevr",
+      "domain": "lebazar.uz",
+      "path": "/",
+      "expires": 1712314045.031964,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gid",
+      "value": "GA1.2.2055557549.1677754046",
+      "domain": ".lebazar.uz",
+      "path": "/",
+      "expires": 1677840448,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_GKE3EVMGFN",
+      "value": "GS1.1.1677754046.1.0.1677754046.0.0.0",
+      "domain": ".lebazar.uz",
+      "path": "/",
+      "expires": 1712314046.702372,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_Q8MP3D9D5L",
+      "value": "GS1.1.1677754046.1.0.1677754046.60.0.0",
+      "domain": ".lebazar.uz",
+      "path": "/",
+      "expires": 1712314046.779438,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_CLFQ5E122G",
+      "value": "GS1.1.1677754046.1.0.1677754046.60.0.0",
+      "domain": ".lebazar.uz",
+      "path": "/",
+      "expires": 1712314046.814419,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ym_uid",
+      "value": "1677754047423256012",
+      "domain": ".lebazar.uz",
+      "path": "/",
+      "expires": 1709290046,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ym_d",
+      "value": "1677754047",
+      "domain": ".lebazar.uz",
+      "path": "/",
+      "expires": 1709290046,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "yabs-sid",
+      "value": "2544002401677754046",
+      "domain": "mc.yandex.ru",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "i",
+      "value": "ko0l6qnC4DF2tw4KFpClUjsfRmYaV1/m/Gr5w01FpWvS0sWjI9OyrrfNhnnlWvbL/D/vof78Uwqvn94kuIsfNXEdTs0=",
+      "domain": ".yandex.ru",
+      "path": "/",
+      "expires": 1712314046.928194,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "yandexuid",
+      "value": "4016121611677754046",
+      "domain": ".yandex.ru",
+      "path": "/",
+      "expires": 1712314046.928242,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "yuidss",
+      "value": "4016121611677754046",
+      "domain": ".yandex.ru",
+      "path": "/",
+      "expires": 1712314046.928255,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "sd",
+      "value": "1",
+      "domain": ".content.adriver.ru",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ym_visorc",
+      "value": "w",
+      "domain": ".lebazar.uz",
+      "path": "/",
+      "expires": 1677755847,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "cid",
+      "value": "AK_ONnS24yuBBhpJKFAJvRw",
+      "domain": ".adriver.ru",
+      "path": "/",
+      "expires": 1712314047.224577,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "adrdel",
+      "value": "1",
+      "domain": ".lebazar.uz",
+      "path": "/",
+      "expires": 1677797247,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "adrcid",
+      "value": "AK_ONnS24yuBBhpJKFAJvRw",
+      "domain": ".lebazar.uz",
+      "path": "/",
+      "expires": 1712314047.274637,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_fbp",
+      "value": "fb.1.1677754047299.412528693",
+      "domain": ".lebazar.uz",
+      "path": "/",
+      "expires": 1685530107,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.2.349059268.1677754046",
+      "domain": ".lebazar.uz",
+      "path": "/",
+      "expires": 1712314048.38868,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ym_isad",
+      "value": "2",
+      "domain": ".lebazar.uz",
+      "path": "/",
+      "expires": 1677826048,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_gcl_au",
+      "value": "1.1.920158951.1677754049",
+      "domain": ".lebazar.uz",
+      "path": "/",
+      "expires": 1685530048,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "test_cookie",
+      "value": "CheckForPermission",
+      "domain": ".doubleclick.net",
+      "path": "/",
+      "expires": 1677754949.239154,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "m",
+      "value": "a9239853-ba14-4203-8c79-450a846635d7528e7e",
+      "domain": "m.stripe.com",
+      "path": "/",
+      "expires": 1712314063.736996,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__stripe_mid",
+      "value": "721a81c7-3f6d-482a-aa48-f0c0a4f418cb94782d",
+      "domain": ".lebazar.uz",
+      "path": "/",
+      "expires": 1709290049,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Strict"
+    },
+    {
+      "name": "__stripe_sid",
+      "value": "db1dafd2-7e36-4a07-815a-f75ef0bc400b5eca24",
+      "domain": ".lebazar.uz",
+      "path": "/",
+      "expires": 1677755849,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Strict"
+    },
+    {
+      "name": "ymex",
+      "value": "1993114046.yrts.1677754046#1993114046.yrtsi.1677754046",
+      "domain": ".yandex.ru",
+      "path": "/",
+      "expires": 1709290065.624991,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "token",
+      "value": "NkREMjJCMzYxMUZEMzE0RDVGMTk1RDYxMzMzQzZCMDc1OEY1SDM4MzAxOTUySDM4RUEwQ0MyQzIxM0Q2MjE0RDc4MTlGMUYxMDQ1Q0IyRDBEQjNB",
+      "domain": "lebazar.uz",
+      "path": "/",
+      "expires": 1712314107.894842,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://lebazar.uz",
+      "localStorage": [
+        {
+          "name": "adrcid",
+          "value": "AK_ONnS24yuBBhpJKFAJvRw"
+        },
+        {
+          "name": "_ym50242663_lsid",
+          "value": "207557245990"
+        },
+        {
+          "name": "_ym50242663_lastHit",
+          "value": "1677754065373"
+        },
+        {
+          "name": "_ym50242663:0_reqNum",
+          "value": "7"
+        },
+        {
+          "name": "Chatra.clientId",
+          "value": "UZEMl6ptQdjGBnooXATmtWqzNkYBEjtl6jRXTDEI"
+        },
+        {
+          "name": "_ym_synced",
+          "value": "{}"
+        },
+        {
+          "name": "Chatra.referrer",
+          "value": ""
+        },
+        {
+          "name": "_ym_uid",
+          "value": "\"1677754047423256012\""
+        },
+        {
+          "name": "_ym_wv2rf:50242663:0",
+          "value": "1"
+        },
+        {
+          "name": "_grecaptcha",
+          "value": "09AJBLKW1OiXlboZ7YaNhQZAjAXdJnRDoTZ0TG6jwn8VuabclBJ32_Eh0boSPVT04U8HIkngxg41FspQD1eXbHka7RgIn2yXCrCkw"
+        },
+        {
+          "name": "Chatra.lastPageViewAt",
+          "value": "1677754048994"
+        },
+        {
+          "name": "_ym_retryReqs",
+          "value": "{}"
+        }
+      ]
+    },
+    {
+      "origin": "https://chat.chatra.io",
+      "localStorage": [
+        {
+          "name": "iub2",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "origin": "https://www.google.com",
+      "localStorage": [
+        {
+          "name": "rc::a",
+          "value": "aXlkZGRvMTh3OXBlMw=="
+        }
+      ]
+    }
+  ]
+}
