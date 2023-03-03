@@ -12,7 +12,14 @@ test.describe('Authentication',() => {
   });
 
 test('Register', async ({ page }) => {
-    await page.goto('/')
+  await page.goto('https://lebazar.uz/');
+  await page.getByText('Войти').click();
+  await page.getByRole('option',{name: 'Uzbekistan'}).click()
+  await page.getByText('United States +1').click()
+  await page.getByPlaceholder('Phone number').fill('8643412215')
+  await page.getByText('Recaptcha requires verification. I\'m not a robotreCAPTCHAPrivacy - Terms').focus()
+  await page.getByRole('checkbox', { name: 'I\'m not a robot' }).click({force:true})
+  await page.pause()
 });
 
 test('Log in', async ({ page }) => {
