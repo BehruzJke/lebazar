@@ -3,21 +3,22 @@ const { test, expect } = require('@playwright/test');
 
 
 test.describe('Catalog',() => {
-
+    //Visit homepage before each test
   test.beforeEach( async ({page})=>{
     await page.goto('/')
   });
 
+//User can see all categories on the homeapge
 test('List categories in homepage', async ({ page }) => {
     await expect(page.getByRole('list').filter({has : page.locator('.menu-item-link') })).toBeVisible()
 });
-
+//User can view all the categories
 test('List all categories', async ({ page }) => {
     await page.getByRole('heading', { name: 'Korzinka.uz View more ' }).getByRole('link', { name: 'View more' }).click()
-    // await page.waitForLoadState('networkidle')
     await expect(page.locator('.category-list-box')).toHaveCount(19)
 });
 
+//User can add product to the cart from its card
 test('Add product to cart @productCard', async ({ page }) => {
     await page.getByRole('heading', { name: 'Korzinka.uz View more ' }).getByRole('link', { name: 'View more' }).click()
     await page.locator('.category-list-box').first().getByRole('link').first().click()
@@ -27,6 +28,7 @@ test('Add product to cart @productCard', async ({ page }) => {
 
 });
 
+//User can change product count in the product card
 test('Change product count @productCard', async ({page}) => {
     await page.getByRole('heading', { name: 'Korzinka.uz View more ' }).getByRole('link', { name: 'View more' }).click()
     await page.locator('.category-list-box').first().getByRole('link').first().click()
@@ -41,6 +43,7 @@ test('Change product count @productCard', async ({page}) => {
 
 });
 
+//User can remove product from cart in product card
 test('Delete product from cart @productCard', async ({page})=>{
     await page.getByRole('heading', { name: 'Korzinka.uz View more ' }).getByRole('link', { name: 'View more' }).click()
     await page.locator('.category-list-box').first().getByRole('link').first().click()
@@ -53,7 +56,7 @@ test('Delete product from cart @productCard', async ({page})=>{
 
 })
     
-
+//User can add product to cart from product frame
 test('Add product to cart @productFrame', async ({page})=>{
     await page.getByRole('heading', { name: 'Korzinka.uz View more ' }).getByRole('link', { name: 'View more' }).click()
     await page.locator('.category-list-box').first().getByRole('link').first().click()
@@ -73,6 +76,7 @@ test('Add product to cart @productFrame', async ({page})=>{
 
 })
 
+//User can add product to Saved products from product frame
 test('Add product to SAVED @productFrame',async ({page})=>{
     await page.getByRole('heading', { name: 'Korzinka.uz View more ' }).getByRole('link', { name: 'View more' }).click()
     await page.locator('.category-list-box').first().getByRole('link').first().click()
@@ -86,6 +90,7 @@ test('Add product to SAVED @productFrame',async ({page})=>{
     await expect(page.locator('div').filter({ hasText: 'Add to cart' }).first()).toBeVisible()
 })
 
+//User can share product link
 test('Share product link @productFrame', async ({page})=>{
     await page.getByRole('heading', { name: 'Korzinka.uz View more ' }).getByRole('link', { name: 'View more' }).click()
     await page.locator('.category-list-box').first().getByRole('link').first().click()
