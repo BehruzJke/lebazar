@@ -25,7 +25,7 @@ module.exports = defineConfig({
   use: {
     /* Maximum time each action such as `click()` can take. Defaults to 0 (no limit). */
     actionTimeout: 5000,
-    headless: false,
+    headless: true,
     screenshot: 'on',
     video: 'on',
     /* Base URL to use in actions like `await page.goto('/')`. */
