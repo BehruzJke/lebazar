@@ -94,6 +94,7 @@ test('Add product to cart @productFrame', async ({page})=>{
 test('Share product link @productFrame', async ({page})=>{
     await page.getByRole('heading', { name: 'Korzinka.uz View more ' }).getByRole('link', { name: 'View more' }).click()
     await page.locator('.category-list-box').first().getByRole('link').first().click()
+    await page.waitForLoadState('networkidle')
     await page.locator('.product-item').first().locator('.product-title').click()
     await page.waitForTimeout(2000)
     await expect(page.locator('#productDetail')).toBeVisible()
