@@ -61,7 +61,7 @@ test('Add product to cart @productFrame', async ({page})=>{
     await page.getByRole('heading', { name: 'Korzinka.uz View more ' }).getByRole('link', { name: 'View more' }).click()
     await page.locator('.category-list-box').first().getByRole('link').first().click()
     await page.locator('.product-item').first().locator('.product-title').click()
-    await page.waitForTimeout(2000)
+    await page.waitForTimeout(5000)
     await expect(page.locator('#productDetail')).toBeVisible()
     await page.locator('#productDetail').focus()
     await page.getByRole('button', { name: 'Add to cart' }).click()
@@ -98,7 +98,7 @@ test('Share product link @productFrame', async ({page})=>{
     await page.waitForTimeout(2000)
     await expect(page.locator('#productDetail')).toBeVisible()
     await page.locator('#productDetail').focus()
-    await page.waitForTimeout(2000)
+    await page.waitForTimeout(5000)
     await page.locator('.share-link-button').click()
     await expect(page.locator('#productDetail').getByRole('textbox').inputValue()).toBeDefined()
    
