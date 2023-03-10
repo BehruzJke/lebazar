@@ -4,7 +4,7 @@ const {test, expect} = require('@playwright/test')
 test.describe('Checkout',()=>{
     //Visit homepage before each test
     test.beforeEach(async ({page})=>{
-        page.goto('/')
+      await  page.goto('/')
     })
     //Order products with scheduled delivery
     test('Scheduled delivery', async ({page})=>{

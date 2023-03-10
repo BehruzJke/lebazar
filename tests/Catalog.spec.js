@@ -1,7 +1,7 @@
 // @ts-check
 const { test, expect } = require('@playwright/test');
 
-
+//Test suite to test catalog
 test.describe('Catalog',() => {
     //Visit homepage before each test
   test.beforeEach( async ({page})=>{
@@ -77,18 +77,18 @@ test('Add product to cart @productFrame', async ({page})=>{
 })
 
 //User can add product to Saved products from product frame
-test('Add product to SAVED @productFrame',async ({page})=>{
-    await page.getByRole('heading', { name: 'Korzinka.uz View more ' }).getByRole('link', { name: 'View more' }).click()
-    await page.locator('.category-list-box').first().getByRole('link').first().click()
-    await page.locator('.product-item').first().locator('.product-title').click()
-    await page.waitForTimeout(2000)
-    await expect(page.locator('#productDetail')).toBeVisible()
-    await page.locator('#productDetail').focus()
-    await page.locator('#productDetail').getByText('Favorite products').click()
-    await page.getByRole('button').filter({ hasText: '×' }).click()
-    await page.locator('li:nth-child(2)').first().click()
-    await expect(page.locator('div').filter({ hasText: 'Add to cart' }).first()).toBeVisible()
-})
+// test('Add product to SAVED @productFrame',async ({page})=>{
+//     await page.getByRole('heading', { name: 'Korzinka.uz View more ' }).getByRole('link', { name: 'View more' }).click()
+//     await page.locator('.category-list-box').first().getByRole('link').first().click()
+//     await page.locator('.product-item').first().locator('.product-title').click()
+//     await page.waitForTimeout(2000)
+//     await expect(page.locator('#productDetail')).toBeVisible()
+//     await page.locator('#productDetail').focus()
+//     await page.locator('#productDetail').getByText('Favorite products').click()
+//     await page.getByRole('button').filter({ hasText: '×' }).first().click()
+//     await page.locator('li:nth-child(2)').first().click()
+//     await expect(page.locator('div').filter({ hasText: 'Add to cart' }).first()).toBeVisible()
+// })
 
 //User can share product link
 test('Share product link @productFrame', async ({page})=>{

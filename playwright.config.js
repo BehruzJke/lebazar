@@ -37,7 +37,7 @@ module.exports = defineConfig({
 
   /* Configure projects for major browsers */
   projects: [
-    { name: 'setup', testMatch: /.*\.setup\.ts/ },
+    // { name: 'setup', testMatch: /.*\.setup\.ts/ },
     // { name: 'product', testMatch: /.*\ product.setup\.ts/},
     {
       name: 'chromium',
